@@ -1,7 +1,17 @@
 package com.app.route.model;
 
+import jakarta.persistence.*;
+
+@Entity
+@Table(name = "customers")
 public class Customer {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(name = "cari_ref")
     private String cariRef;
+
     private double latitude;
     private double longitude;
 
@@ -13,6 +23,8 @@ public class Customer {
         this.longitude = longitude;
     }
 
+    public Long getId() { return id; }
+    public void setId(Long id) { this.id = id; }
     public String getCariRef() { return cariRef; }
     public void setCariRef(String cariRef) { this.cariRef = cariRef; }
     public double getLatitude() { return latitude; }
