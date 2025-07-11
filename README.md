@@ -1,5 +1,6 @@
 Rota Optimizasyonu Projesi
 Teknolojiler: Java 21, Spring Boot, PostgreSQL, React TypeScript
+
 Hafta 1: Proje Kurulumu
 
 Spring Boot projesi olusturuldu
@@ -31,6 +32,7 @@ application.properties - DB config
 API Endpoints:
 GET/POST/PUT/DELETE /api/customers
 POST /api/optimize-all
+
 Hafta 3: Test ve Dogrulama
 
 Postman ile API testleri yapildi
