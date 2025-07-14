@@ -42,7 +42,7 @@ Rota optimizasyonu dogrulandi
 
 Teknik Detaylar
 Algoritma: Nearest Neighbor (O(n²))
-Mesafe Hesaplama: Haversine formulu
+Mesafe Hesaplama: Haversine formulu( OSMR olacak ) 
 Veritabani: PostgreSQL customers tablosu
 Test Sonuclari:
 
