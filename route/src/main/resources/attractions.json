@@ -1,0 +1,922 @@
+{
+  "attractions": [
+    {
+      "id": 1,
+      "name": "Tarihi Kalkanoğlu Pilavcısı",
+      "address": "Kuloğlu Mahallesi, Ayhan Işık Sokak No. 16, Beyoğlu",
+      "description": "Historic family-run restaurant serving traditional rice dishes since 1853, 5th generation operation",
+      "latitude": 41.0290,
+      "longitude": 28.9750,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 45,
+      "avg_cost": 0.70
+    },
+    {
+      "id": 2,
+      "name": "Tarihi Eminönü Balık Ekmek",
+      "address": "Galata Köprüsü No:28, Eminönü",
+      "description": "Traditional fish sandwich served from boats on Golden Horn waterfront",
+      "latitude": 41.0174,
+      "longitude": 28.9738,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 20,
+      "avg_cost": 0.50
+    },
+    {
+      "id": 3,
+      "name": "Çiya Sofrası",
+      "address": "Caferağa Mahallesi, Güneşlibahçe Sk. No:43, Kadıköy",
+      "description": "Netflix Chef's Table featured restaurant specializing in Anatolian cuisine",
+      "latitude": 40.9893,
+      "longitude": 29.0244,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 75,
+      "avg_cost": 0.80
+    },
+    {
+      "id": 4,
+      "name": "Havuzlu Restaurant",
+      "address": "Grand Bazaar, Near Gate 16, Fatih",
+      "description": "Historic tradesman restaurant inside Grand Bazaar, operating for 50 years",
+      "latitude": 41.0106,
+      "longitude": 28.9681,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 15.00
+    },
+    {
+      "id": 5,
+      "name": "Sultanahmet Köftecisi",
+      "address": "Alemdar Mahallesi, Divanyolu Caddesi, Sultanahmet",
+      "description": "Original köfte restaurant serving since 1920, famous for traditional meatballs",
+      "latitude": 41.0058,
+      "longitude": 28.9784,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 30,
+      "avg_cost": 0.50
+    },
+    {
+      "id": 6,
+      "name": "Lades Menemen",
+      "address": "Side street off Istiklal Street, Beyoğlu",
+      "description": "Famous for traditional menemen and breakfast foods, serves until late night",
+      "latitude": 41.0370,
+      "longitude": 28.9780,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 45,
+      "avg_cost": 2.00
+    },
+    {
+      "id": 7,
+      "name": "Şampiyon Kokoreç",
+      "address": "Taksim Square area, Beyoğlu",
+      "description": "38-year-old traditional kokoreç shop, grilled lamb intestines specialty",
+      "latitude": 41.0369,
+      "longitude": 28.9850,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 25,
+      "avg_cost": 3.00
+    },
+    {
+      "id": 8,
+      "name": "Kızılkayalar",
+      "address": "Taksim Square, Beyoğlu",
+      "description": "Chain restaurant famous for ıslak hamburger, wet hamburger Istanbul specialty",
+      "latitude": 41.0369,
+      "longitude": 28.9850,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 20,
+      "avg_cost": 1.00
+    },
+    {
+      "id": 9,
+      "name": "Hamdi Restaurant",
+      "address": "Tahmis Caddesi, Kalcin Sokak No:17, Eminönü",
+      "description": "Famous for kebabs with Bosphorus view, terrace seating available",
+      "latitude": 41.0170,
+      "longitude": 28.9720,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 35.00
+    },
+    {
+      "id": 10,
+      "name": "Haci Baba",
+      "address": "Istiklal Caddesi, Beyoğlu",
+      "description": "Traditional Turkish dishes in bustling atmosphere, local favorite",
+      "latitude": 41.0350,
+      "longitude": 28.9780,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 75,
+      "avg_cost": 30.00
+    },
+    {
+      "id": 11,
+      "name": "Galata Kitchen",
+      "address": "Tatarbeyi Street No: 9/B, Beyoğlu",
+      "description": "Fresh ingredients and extensive meze selection, complimentary Turkish tea",
+      "latitude": 41.0290,
+      "longitude": 28.9750,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 80,
+      "avg_cost": 25.00
+    },
+    {
+      "id": 12,
+      "name": "Deraliye Ottoman Cuisine",
+      "address": "Sultanahmet area, Fatih",
+      "description": "Modern restaurant serving authentic Ottoman Empire court dishes",
+      "latitude": 41.0060,
+      "longitude": 28.9780,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 120,
+      "avg_cost": 45.00
+    },
+    {
+      "id": 13,
+      "name": "Balkan Lokantası",
+      "address": "Hocapasa Mahallesi, Hoca Pasa Sokak No: 12, Sultanahmet",
+      "description": "Chain restaurant with glass-window food display, popular with locals",
+      "latitude": 41.0080,
+      "longitude": 28.9750,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 60,
+      "avg_cost": 20.00
+    },
+    {
+      "id": 14,
+      "name": "Hanzade Terrace Restaurant",
+      "address": "Emin Sinan Mahallesi, Piyer Loti Caddesi No: 35, Sultanahmet",
+      "description": "Diverse Turkish and Middle Eastern cuisines with terrace seating",
+      "latitude": 41.0070,
+      "longitude": 28.9760,
+      "city": "ISTANBUL",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 30.00
+    },
+    {
+      "id": 15,
+      "name": "SALT Galata",
+      "address": "Bankalar Caddesi No: 11, Karaköy",
+      "description": "Free contemporary art gallery and Ottoman Bank Museum with library",
+      "latitude": 41.0255,
+      "longitude": 28.9740,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 90,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 16,
+      "name": "Dogancay Museum",
+      "address": "Balo Sokak No: 42, Beyoğlu",
+      "description": "Turkey's first modern art museum, free admission, contemporary Turkish art",
+      "latitude": 41.0290,
+      "longitude": 28.9750,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 75,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 17,
+      "name": "Istanbul Archaeological Museums",
+      "address": "Alemdar Caddesi, Sultanahmet",
+      "description": "Complex of three museums with extensive ancient artifacts collection",
+      "latitude": 41.0115,
+      "longitude": 28.9815,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 120,
+      "avg_cost": 15.00
+    },
+    {
+      "id": 18,
+      "name": "Fethiye Museum",
+      "address": "Fethiye Camii Sokak, Fatih",
+      "description": "Former Pammakaristos Church, Byzantine heritage museum",
+      "latitude": 41.0300,
+      "longitude": 28.9500,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 3.00
+    },
+    {
+      "id": 19,
+      "name": "SantralIstanbul",
+      "address": "Eski Silahtarağa Elektrik Santralı, Eyüpsultan",
+      "description": "Free contemporary art exhibitions in former Ottoman power plant",
+      "latitude": 41.0650,
+      "longitude": 28.9400,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 90,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 20,
+      "name": "Rahmi M. Koç Museum",
+      "address": "Piri Paşa Caddesi No: 27, Beyoğlu",
+      "description": "Industrial museum with vintage cars, planes, and maritime exhibits",
+      "latitude": 41.0390,
+      "longitude": 28.9470,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 120,
+      "avg_cost": 18.00
+    },
+    {
+      "id": 21,
+      "name": "Istanbul Modern",
+      "address": "Meclis-i Mebusan Caddesi, Galataport",
+      "description": "Renzo Piano designed modern art museum, Turkey's premier contemporary art venue",
+      "latitude": 41.0250,
+      "longitude": 28.9720,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 120,
+      "avg_cost": 25.00
+    },
+    {
+      "id": 22,
+      "name": "Pera Museum",
+      "address": "Asmalı Mescit Mahallesi, Meşrutiyet Caddesi, Beyoğlu",
+      "description": "19th century orientalist paintings and changing exhibitions",
+      "latitude": 41.0310,
+      "longitude": 28.9760,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 25.00
+    },
+    {
+      "id": 23,
+      "name": "Topkapı Palace",
+      "address": "Sultanahmet area, Fatih",
+      "description": "Former Ottoman palace complex, UNESCO World Heritage Site",
+      "latitude": 41.0115,
+      "longitude": 28.9833,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 180,
+      "avg_cost": 55.00
+    },
+    {
+      "id": 24,
+      "name": "Dolmabahçe Palace",
+      "address": "Dolmabahçe Caddesi, Beşiktaş",
+      "description": "19th century Ottoman palace with European architecture",
+      "latitude": 41.0390,
+      "longitude": 29.0000,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 120,
+      "avg_cost": 45.00
+    },
+    {
+      "id": 25,
+      "name": "Chora Museum",
+      "address": "Dervişali Mahallesi, Kariye Camii Sokak, Fatih",
+      "description": "Former Byzantine church with exceptional mosaics and frescoes",
+      "latitude": 41.0310,
+      "longitude": 28.9380,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 20.00
+    },
+    {
+      "id": 26,
+      "name": "Basilica Cistern",
+      "address": "Alemdar Mahallesi, Yerebatan Caddesi, Sultanahmet",
+      "description": "Underground Byzantine water reservoir with atmospheric columns",
+      "latitude": 41.0084,
+      "longitude": 28.9778,
+      "city": "ISTANBUL",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 60,
+      "avg_cost": 33.00
+    },
+    {
+      "id": 27,
+      "name": "Balat Colorful Houses",
+      "address": "Kiremit Caddesi 28-32, Balat, Fatih",
+      "description": "Instagram-famous colorful Ottoman houses in historic Jewish quarter",
+      "latitude": 41.0294,
+      "longitude": 28.9495,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 45,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 28,
+      "name": "Galata Tower View",
+      "address": "Galata Kulesi Meydan Sokak, Beyoğlu",
+      "description": "360-degree panoramic views of Istanbul from historic tower",
+      "latitude": 41.0256,
+      "longitude": 28.9744,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 15.00
+    },
+    {
+      "id": 29,
+      "name": "Halic Metro Bridge",
+      "address": "Golden Horn Metro Bridge",
+      "description": "Photogenic metro bridge with mosque skyline backdrop",
+      "latitude": 41.0227,
+      "longitude": 28.9662,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 20,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 30,
+      "name": "Ortaköy Mosque",
+      "address": "Mecidiye Mahallesi, Mecidiye Köprüsü Sokak, Beşiktaş",
+      "description": "Baroque mosque on Bosphorus waterfront with bridge backdrop",
+      "latitude": 41.0475,
+      "longitude": 29.0275,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 45,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 31,
+      "name": "Pierre Loti Hill",
+      "address": "Pierre Loti Tepesi, Eyüp",
+      "description": "Historic hilltop cafe with Golden Horn panorama, cable car access",
+      "latitude": 41.0520,
+      "longitude": 28.9350,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 32,
+      "name": "Süleymaniye Mosque",
+      "address": "Süleymaniye Mahallesi, Fatih",
+      "description": "Ottoman imperial mosque with city views, architectural masterpiece",
+      "latitude": 41.0166,
+      "longitude": 28.9644,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 33,
+      "name": "Maiden's Tower",
+      "address": "Salacak Mahallesi, Üsküdar",
+      "description": "Historic lighthouse tower on Bosphorus island, boat access required",
+      "latitude": 41.0211,
+      "longitude": 29.0040,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 23.00
+    },
+    {
+      "id": 34,
+      "name": "Galata Tower Restaurant",
+      "address": "Galata Kulesi Meydan Sokak, Beyoğlu",
+      "description": "Fine dining with panoramic city views in historic tower",
+      "latitude": 41.0256,
+      "longitude": 28.9744,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 120,
+      "avg_cost": 30.00
+    },
+    {
+      "id": 35,
+      "name": "Çamlıca Hill",
+      "address": "Büyük Çamlıca Tepesi, Üsküdar",
+      "description": "Highest point in Istanbul with panoramic city and Bosphorus views",
+      "latitude": 41.0225,
+      "longitude": 29.0658,
+      "city": "ISTANBUL",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 5.00
+    },
+    {
+      "id": 36,
+      "name": "Belgrad Forest ATV/Cycling",
+      "address": "Mithatpaşa Mahallesi, Belgrad Ormanı, Eyüp",
+      "description": "5442 hectare forest with ATV safari, mountain biking, and hiking trails",
+      "latitude": 41.2100,
+      "longitude": 28.9900,
+      "city": "ISTANBUL",
+      "activity_type": "ADVENTURE",
+      "budget_range": "BUDGET",
+      "estimated_duration": 180,
+      "avg_cost": 15.00
+    },
+    {
+      "id": 37,
+      "name": "Galata Bridge Fishing",
+      "address": "Galata Köprüsü, connecting Eminönü-Karaköy",
+      "description": "Traditional fishing experience on Golden Horn with local atmosphere",
+      "latitude": 41.0200,
+      "longitude": 28.9731,
+      "city": "ISTANBUL",
+      "activity_type": "ADVENTURE",
+      "budget_range": "BUDGET",
+      "estimated_duration": 120,
+      "avg_cost": 5.00
+    },
+    {
+      "id": 38,
+      "name": "Bosphorus Ferry",
+      "address": "Various ferry docks across Istanbul",
+      "description": "Public ferry rides across Bosphorus between Europe and Asia",
+      "latitude": 41.0200,
+      "longitude": 28.9731,
+      "city": "ISTANBUL",
+      "activity_type": "ADVENTURE",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 3.00
+    },
+    {
+      "id": 39,
+      "name": "Princes' Islands Ferry",
+      "address": "Eminönü Ferry Terminal",
+      "description": "Day trip to car-free islands with Victorian architecture and nature",
+      "latitude": 41.0174,
+      "longitude": 28.9738,
+      "city": "ISTANBUL",
+      "activity_type": "ADVENTURE",
+      "budget_range": "BUDGET",
+      "estimated_duration": 240,
+      "avg_cost": 12.00
+    },
+    {
+      "id": 40,
+      "name": "Golden Horn Walking Trail",
+      "address": "Various access points along Golden Horn",
+      "description": "Waterfront walking trail with historic sites and city views",
+      "latitude": 41.0220,
+      "longitude": 28.9600,
+      "city": "ISTANBUL",
+      "activity_type": "ADVENTURE",
+      "budget_range": "BUDGET",
+      "estimated_duration": 90,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 41,
+      "name": "Kolmas Draakon",
+      "address": "Town Hall building, Raekoja plats, Old Town",
+      "description": "Medieval-themed restaurant in Town Hall, famous for elk soup",
+      "latitude": 59.4370,
+      "longitude": 24.7454,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 30,
+      "avg_cost": 7.50
+    },
+    {
+      "id": 42,
+      "name": "Kompressor",
+      "address": "Old Town area, Tallinn",
+      "description": "Student favorite serving enormous pancakes with sweet and savory fillings",
+      "latitude": 59.4350,
+      "longitude": 24.7500,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 45,
+      "avg_cost": 8.00
+    },
+    {
+      "id": 43,
+      "name": "F-Hoone",
+      "address": "Telliskivi Creative City, Kalamaja",
+      "description": "Industrial-vibe restaurant in former factory, popular with locals",
+      "latitude": 59.4450,
+      "longitude": 24.7300,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 9.00
+    },
+    {
+      "id": 44,
+      "name": "Clayhills Gastropub",
+      "address": "Old Town center, Tallinn",
+      "description": "Gastropub with organic local ingredients and seasonal menu",
+      "latitude": 59.4380,
+      "longitude": 24.7460,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 75,
+      "avg_cost": 15.00
+    },
+    {
+      "id": 45,
+      "name": "Boheem",
+      "address": "Near Baltic Station Market, Old Town",
+      "description": "Bohemian cafe with wooden floors, crepes, salads and desserts",
+      "latitude": 59.4360,
+      "longitude": 24.7480,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 8.00
+    },
+    {
+      "id": 46,
+      "name": "Rataskaevu 16",
+      "address": "Rataskaevu 16, Old Town",
+      "description": "Legendary restaurant in medieval building, TripAdvisor number one for years",
+      "latitude": 59.4370,
+      "longitude": 24.7454,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 35.00
+    },
+    {
+      "id": 47,
+      "name": "NOP",
+      "address": "Kadriorg district, near Kadriorg Park",
+      "description": "Organic vegetarian restaurant in wooden building, fresh and healthy menu",
+      "latitude": 59.4400,
+      "longitude": 24.7900,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 75,
+      "avg_cost": 40.00
+    },
+    {
+      "id": 48,
+      "name": "Ülo Restaurant",
+      "address": "Modern Estonian cuisine location, Tallinn",
+      "description": "Modern take on 1970s design, vegetable-led menu with contemporary Estonian dishes",
+      "latitude": 59.4300,
+      "longitude": 24.7600,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 100,
+      "avg_cost": 45.00
+    },
+    {
+      "id": 49,
+      "name": "The Kurze",
+      "address": "Kiosk-size location with yard, Tallinn",
+      "description": "Family-owned restaurant specializing in Dagestan cuisine, dumplings and khachapuri",
+      "latitude": 59.4320,
+      "longitude": 24.7520,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 80,
+      "avg_cost": 30.00
+    },
+    {
+      "id": 50,
+      "name": "Stenhus",
+      "address": "Old Town courtyard, Tallinn",
+      "description": "Restaurant in lovely courtyard setting with traditional Estonian cuisine",
+      "latitude": 59.4380,
+      "longitude": 24.7470,
+      "city": "TALLINN",
+      "activity_type": "FOOD",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 50.00
+    },
+    {
+      "id": 51,
+      "name": "Kiek in de Kök Museum",
+      "address": "Komandandi tee 2, Toompea Hill",
+      "description": "Medieval defense tower museum with fortification history and underground tunnels",
+      "latitude": 59.4330,
+      "longitude": 24.7377,
+      "city": "TALLINN",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 90,
+      "avg_cost": 8.00
+    },
+    {
+      "id": 52,
+      "name": "Estonian History Museum",
+      "address": "Pikk 17, Great Guild Hall, Old Town",
+      "description": "Estonia's history from medieval times to modern era in historic guild building",
+      "latitude": 59.4410,
+      "longitude": 24.7460,
+      "city": "TALLINN",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 75,
+      "avg_cost": 8.00
+    },
+    {
+      "id": 53,
+      "name": "Town Hall Pharmacy Museum",
+      "address": "Raekoja plats 11, Town Hall Square",
+      "description": "Europe's oldest continuously operating pharmacy since 1422, free museum",
+      "latitude": 59.4370,
+      "longitude": 24.7454,
+      "city": "TALLINN",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 30,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 54,
+      "name": "Tallinn Town Hall",
+      "address": "Raekoja plats 1, Town Hall Square",
+      "description": "Oldest town hall in Northern Europe, Gothic architecture with tower views",
+      "latitude": 59.4370,
+      "longitude": 24.7454,
+      "city": "TALLINN",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 60,
+      "avg_cost": 5.00
+    },
+    {
+      "id": 55,
+      "name": "Estonian Maritime Museum",
+      "address": "Pikk 70, Fat Margaret Tower",
+      "description": "Maritime history in Fat Margaret Tower, 700-year-old ship hull display",
+      "latitude": 59.4460,
+      "longitude": 24.7510,
+      "city": "TALLINN",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "BUDGET",
+      "estimated_duration": 75,
+      "avg_cost": 7.00
+    },
+    {
+      "id": 56,
+      "name": "Kadriorg Palace",
+      "address": "A. Weizenbergi 37, Kadriorg Park",
+      "description": "Baroque palace built by Peter the Great, houses foreign art collection",
+      "latitude": 59.4426,
+      "longitude": 24.7929,
+      "city": "TALLINN",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 90,
+      "avg_cost": 8.00
+    },
+    {
+      "id": 57,
+      "name": "KUMU Art Museum",
+      "address": "Weizenbergi 34, Kadriorg Park",
+      "description": "Estonia's main art museum, largest exhibition space with Estonian art collection",
+      "latitude": 59.4360,
+      "longitude": 24.8005,
+      "city": "TALLINN",
+      "activity_type": "ART_HISTORY",
+      "budget_range": "MID_RANGE",
+      "estimated_duration": 120,
+      "avg_cost": 15.00
+    },
+    {
+      "id": 58,
+      "name": "Patkuli Viewing Platform",
+      "address": "Patkuli vaateplats, Toompea Hill",
+      "description": "Free panoramic viewing platform overlooking Old Town spires and Baltic Sea",
+      "latitude": 59.4353,
+      "longitude": 24.7380,
+      "city": "TALLINN",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 30,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 59,
+      "name": "St. Olaf's Church Tower",
+      "address": "Lai 50, Old Town",
+      "description": "Medieval church tower with 258 steps, 123m height, panoramic city views",
+      "latitude": 59.4415,
+      "longitude": 24.7472,
+      "city": "TALLINN",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 45,
+      "avg_cost": 5.00
+    },
+    {
+      "id": 60,
+      "name": "Alexander Nevsky Cathedral",
+      "address": "Lossi plats 10, Toompea Hill",
+      "description": "Russian Orthodox cathedral from 1900, distinctive onion domes, free entry",
+      "latitude": 59.4356,
+      "longitude": 24.7387,
+      "city": "TALLINN",
+      "activity_type": "SOCIAL_MEDIA",
+      "budget_range": "BUDGET",
+      "estimated_duration": 30,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 61,
+      "name": "Pirita Nature Trail",
+      "address": "Pirita Sports Centre area, Pirita district",
+      "description": "7km cycling and hiking trail through forest, crosses Pirita River in circuit",
+      "latitude": 59.4700,
+      "longitude": 24.8300,
+      "city": "TALLINN",
+      "activity_type": "ADVENTURE",
+      "budget_range": "BUDGET",
+      "estimated_duration": 90,
+      "avg_cost": 0.00
+    },
+    {
+      "id": 62,
+      "name": "Pääsküla Bog Nature Trail",
+      "address": "Pääsküla bog area, Western Tallinn",
+      "description": "4km hiking trail on boardwalks through different forest types and springs",
+      "latitude": 59.3900,
+      "longitude": 24.6100,
+      "city": "TALLINN",
+      "activity_type": "ADVENTURE",
+      "budget_range": "BUDGET",
+      "estimated_duration": 120,
+      "avg_cost": 0.00
+    }
+  ],
+  "budget_ranges": {
+    "TALLINN": {
+      "BUDGET": {
+        "min": 0,
+        "max": 30,
+        "currency": "EUR"
+      },
+      "MID_RANGE": {
+        "min": 30,
+        "max": 80,
+        "currency": "EUR"
+      },
+      "PREMIUM": {
+        "min": 80,
+        "max": 999,
+        "currency": "EUR"
+      }
+    },
+    "ISTANBUL": {
+      "BUDGET": {
+        "min": 0,
+        "max": 20,
+        "currency": "EUR"
+      },
+      "MID_RANGE": {
+        "min": 20,
+        "max": 60,
+        "currency": "EUR"
+      },
+      "PREMIUM": {
+        "min": 60,
+        "max": 999,
+        "currency": "EUR"
+      }
+    }
+  },
+  "duration_ranges": {
+    "SHORT": {
+      "min": 180,
+      "max": 240,
+      "unit": "minutes",
+      "description": "3-4 hours"
+    },
+    "MEDIUM": {
+      "min": 480,
+      "max": 600,
+      "unit": "minutes",
+      "description": "1 day"
+    },
+    "LONG": {
+      "min": 1440,
+      "max": 4320,
+      "unit": "minutes",
+      "description": "2+ days"
+    }
+  },
+  "activity_types": {
+    "FOOD": {
+      "name": "Food",
+      "description": "Restaurants, cafes, food markets, local food experiences"
+    },
+    "ART_HISTORY": {
+      "name": "Art & History",
+      "description": "Museums, galleries, historical sites, cultural centers"
+    },
+    "SOCIAL_MEDIA": {
+      "name": "Social Media",
+      "description": "Instagram-worthy spots, viewpoints, photogenic locations"
+    },
+    "ADVENTURE": {
+      "name": "Adventure",
+      "description": "Outdoor activities, parks, adventure sports, unique experiences"
+    }
+  },
+  "cities": {
+    "TALLINN": {
+      "name": "Tallinn",
+      "country": "Estonia",
+      "total_attractions": 22,
+      "coordinates": {
+        "latitude": 59.4370,
+        "longitude": 24.7454
+      }
+    },
+    "ISTANBUL": {
+      "name": "Istanbul",
+      "country": "Turkey",
+      "total_attractions": 40,
+      "coordinates": {
+        "latitude": 41.0082,
+        "longitude": 28.9784
+      }
+    }
+  },
+  "api_response_format": {
+    "route_response": {
+      "optimized_route": [
+        {
+          "order": 1,
+          "name": "attraction_name",
+          "address": "full_address",
+          "description": "attraction_description",
+          "estimated_duration": "duration_in_minutes",
+          "walking_time": "time_to_next_stop",
+          "cost": "cost_in_euros"
+        }
+      ],
+      "total_distance": "total_walking_distance",
+      "total_duration": "total_trip_time",
+      "total_cost": "sum_of_all_costs"
+    }
+  }
+}
