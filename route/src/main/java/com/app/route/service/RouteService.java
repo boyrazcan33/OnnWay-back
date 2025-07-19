@@ -25,17 +25,15 @@ public class RouteService {
         );
 
         candidates = filterByDuration(candidates, request.getDuration());
-
         List<Attraction> optimizedRoute = optimizeRoute(candidates, request.getStartLat(), request.getStartLon());
-
         return buildRouteResponse(optimizedRoute, request.getStartLat(), request.getStartLon());
     }
 
     private List<Attraction> filterByDuration(List<Attraction> attractions, Duration duration) {
         int maxDuration = switch (duration) {
             case SHORT -> 240;
-            case MEDIUM -> 600;
-            case LONG -> 4320;
+            case MEDIUM -> 480;
+            case LONG -> 2880;
         };
 
         int totalDuration = 0;
@@ -102,15 +100,13 @@ public class RouteService {
         for (int i = 0; i < route.size(); i++) {
             Attraction attraction = route.get(i);
 
-            String walkingTime = "0 min";
-            if (i > 0) {
-                double distance = distanceCalculator.getRoadDistance(
-                        currentLat, currentLon,
-                        attraction.getLatitude(), attraction.getLongitude()
-                );
-                totalDistance += distance;
-                walkingTime = Math.round(distance * 12) + " min";
-            }
+            double distance = distanceCalculator.getRoadDistance(
+                    currentLat, currentLon,
+                    attraction.getLatitude(), attraction.getLongitude()
+            );
+
+            totalDistance += distance;
+            String walkingTime = Math.round(distance * 12) + " min";
 
             RouteStop stop = new RouteStop(
                     i + 1,
