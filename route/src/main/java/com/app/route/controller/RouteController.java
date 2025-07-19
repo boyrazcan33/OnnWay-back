@@ -1,9 +1,9 @@
 package com.app.route.controller;
 
-import com.app.route.dto.RouteRequest;
-import com.app.route.model.Customer;
-import com.app.route.service.RouteOptimizer;
-import com.app.route.service.CustomerService;
+import com.app.route.dto.*;
+import com.app.route.model.*;
+import com.app.route.service.RouteService;
+import com.app.route.repository.AttractionRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -14,33 +14,41 @@ import java.util.List;
 public class RouteController {
 
     @Autowired
-    private CustomerService customerService;
+    private RouteService routeService;
 
     @Autowired
-    private RouteOptimizer routeOptimizer;
+    private AttractionRepository attractionRepository;
 
-    @PostMapping("/optimize")
-    public ResponseEntity<?> optimizeRoute(@RequestBody RouteRequest request) {
+    @PostMapping("/route/create")
+    public ResponseEntity<RouteResponse> createRoute(@RequestBody RouteRequest request) {
         try {
-            List<Customer> optimizedRoute = routeOptimizer.optimizeRoute(
-                    request.getCustomers(),
-                    request.getStartLat(),
-                    request.getStartLon()
-            );
-            return ResponseEntity.ok(optimizedRoute);
+            RouteResponse response = routeService.createOptimizedRoute(request);
+            return ResponseEntity.ok(response);
         } catch (Exception e) {
-            return ResponseEntity.badRequest().body("Route optimization failed: " + e.getMessage());
+            return ResponseEntity.badRequest().build();
         }
     }
 
-    @PostMapping("/optimize-all")
-    public ResponseEntity<?> optimizeAllCustomers(@RequestParam double startLat, @RequestParam double startLon) {
+    @GetMapping("/attractions")
+    public ResponseEntity<List<Attraction>> getAttractions(
+            @RequestParam City city,
+            @RequestParam(required = false) ActivityType activity,
+            @RequestParam(required = false) BudgetRange budget
+    ) {
         try {
-            List<Customer> allCustomers = customerService.getAllCustomers();
-            List<Customer> optimizedRoute = routeOptimizer.optimizeRoute(allCustomers, startLat, startLon);
-            return ResponseEntity.ok(optimizedRoute);
+            List<Attraction> attractions;
+
+            if (activity != null && budget != null) {
+                attractions = attractionRepository.findByCityAndActivityTypeAndBudgetRange(city, activity, budget);
+            } else if (activity != null) {
+                attractions = attractionRepository.findByCityAndActivityType(city, activity);
+            } else {
+                attractions = attractionRepository.findByCity(city);
+            }
+
+            return ResponseEntity.ok(attractions);
         } catch (Exception e) {
-            return ResponseEntity.badRequest().body("Route optimization failed: " + e.getMessage());
+            return ResponseEntity.badRequest().build();
         }
     }
 }
